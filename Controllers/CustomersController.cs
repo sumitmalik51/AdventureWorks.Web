@@ -11,9 +11,9 @@ namespace AdventureWorks.Web.Controllers
 {
     public class CustomersController : Controller
     {
-        private readonly sampledbContext _context;
+        private readonly wwiContext _context;
 
-        public CustomersController(sampledbContext context)
+        public CustomersController(wwiContext context)
         {
             _context = context;
         }

@@ -11,9 +11,9 @@ namespace AdventureWorks.Web.Controllers
 {
     public class ProductsController : Controller
     {
-        private readonly sampledbContext _context;
+        private readonly wwiContext _context;
 
-        public ProductsController(sampledbContext context)
+        public ProductsController(wwiContext context)
         {
             _context = context;
         }
@@ -21,8 +21,8 @@ namespace AdventureWorks.Web.Controllers
         // GET: Products
         public async Task<IActionResult> Index()
         {
-            var sampledbContext = _context.Product.Include(p => p.ProductCategory).Include(p => p.ProductModel);
-            return View(await sampledbContext.ToListAsync());
+            var wwiContext = _context.Product.Include(p => p.ProductCategory).Include(p => p.ProductModel);
+            return View(await wwiContext.ToListAsync());
         }
 
         // GET: Products/Details/5

@@ -4,13 +4,13 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace AdventureWorks.Web.Models
 {
-    public partial class sampledbContext : DbContext
+    public partial class wwiContext : DbContext
     {
-        public sampledbContext()
+        public wwiContext()
         {
         }
 
-        public sampledbContext(DbContextOptions<sampledbContext> options)
+        public wwiContext(DbContextOptions<wwiContext> options)
             : base(options)
         {
         }
