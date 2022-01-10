@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using AdventureWorks.Web.Models;
+using WideWorldImporters.Web.Models;
 
-namespace AdventureWorks.Web.Controllers
+namespace WideWorldImporters.Web.Controllers
 {
     public class HomeController : Controller
     {

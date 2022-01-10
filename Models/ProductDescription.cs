@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace AdventureWorks.Web.Models
+namespace WideWorldImporters.Web.Models
 {
     public partial class ProductDescription
     {

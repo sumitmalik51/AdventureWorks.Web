@@ -1,6 +1,6 @@
 # Project Name
 
-AdventureWorks Sample Web App.
+WideWorldImporters Sample Web App.
 
 ## Features
 

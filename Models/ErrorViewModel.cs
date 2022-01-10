@@ -1,6 +1,6 @@
 using System;
 
-namespace AdventureWorks.Web.Models
+namespace WideWorldImporters.Web.Models
 {
     public class ErrorViewModel
     {

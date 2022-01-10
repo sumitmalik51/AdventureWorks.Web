@@ -9,13 +9,14 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using AdventureWorks.Web.Models;
+using WideWorldImporters.Web.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace AdventureWorks.Web
+namespace WideWorldImporters.Web
 {
     public class Startup
     {
+         private const string ContextName = "WwiContext";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;

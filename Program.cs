@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace AdventureWorks.Web
+namespace WideWorldImporters.Web
 {
     public class Program
     {

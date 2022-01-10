@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using AdventureWorks.Web.Models;
+using WideWorldImporters.Web.Models;
 
-namespace AdventureWorks.Web.Controllers
+namespace WideWorldImporters.Web.Controllers
 {
     public class CustomersController : Controller
     {

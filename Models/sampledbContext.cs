@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace AdventureWorks.Web.Models
+namespace WideWorldImporters.Web.Models
 {
     public partial class wwiContext : DbContext
     {
